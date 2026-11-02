@@ -1,0 +1,5 @@
+﻿# PR Detonator policy for this repository. Read from the base branch only.
+# A policy can only make review stricter, or name hosts that are normal here;
+# it can never silence a high/critical kernel finding.
+needs_review: block
+timeout_s: 240
