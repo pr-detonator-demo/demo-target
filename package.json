@@ -3,6 +3,7 @@
     "version":  "1.0.0",
     "dependencies":  {
                          "color-helper":  "file:vendor/color-helper-1.0.0.tgz",
-                         "puppeteer":  "^24.0.0"
+                         "puppeteer":  "^25.0.0"
                      }
 }
+
